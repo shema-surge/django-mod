@@ -1,0 +1,216 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/head.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/section1.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/section2.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/carousel.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/footer.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="{% static 'js/jquery-3.6.4.min.js' %}" defer></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}" defer></script>
+    <script src="{% static 'js/index.js' %}" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <a>
+            <div class="logo">
+                <img src="https://www.mod.gov.rw/index.php?eID=dumpFile&amp;t=f&amp;f=1679&amp;token=c456432515e20118795fbbd0cce379ac2bcd0a14" alt="Image" height="48">
+                <p>MOD</p>
+            </div>
+        </a>
+        <div class="menubar">
+            <a href="">HOME</a>
+            <a href="">THE MINISTRY</a>
+            <a href="">RDF</a>
+            <a href="">ACTIVITIES</a>
+            <a href="">UPDATES</a>
+            <a href="">PUBLICATIONS</a>
+        </div>
+        <div class="optionsbar">
+                <form class="searchbar">
+                    <input id="search_bar1" type="text" placeholder="Search">
+                    <button id="search_btn1" type="submit">
+                        <i class="fa fa-search search-icon"></i>
+                    </button>
+                </form>
+                <a href="">GOV.RW</a>
+        </div>
+    </nav>
+    <div class="section1">
+        <p class="section1_title">MOD</p>
+        <p class="section1_text">Ministry of Defence</p>
+        <form class="section1_form">
+            <input type="text" placeholder="What are you looking for?">
+            <button>Search</button>
+        </form>
+    </div>
+    <div class="section2">
+        <h1>RDF Services</h1>
+        <div class="section2_wrapper">
+            <div class="section2_div">
+                <center>
+                    <img src="{% static 'img/Logo_Army.jpg' %}" class="mabo8" height="70" alt="Service">
+                    <hr>
+                    <p class="subtitle">Army</p>
+                </center>
+                <p class="grey_text">The Army is of the three services comprising the RPF. It evolved</p>
+                <a href="https://www.mod.gov.rw/army">Visit →</a>
+            </div>
+            <div class="section2_div">
+                <center>
+                    <img src="{% static 'img/Logo_Airforce.gif' %}" class="mabo8" height="70" alt="Service">
+                    <hr>
+                    <p class="subtitle">Air Force</p>
+                </center>
+                <p class="grey_text">Rwanda Air Force is tasked with defending Rwandan Air space..</p>
+                <a href="https://www.mod.gov.rw/air-force">Visit →</a>
+            </div>
+            <div class="section2_div">
+                <center>
+                    <img src="{% static 'img/Logo_Reserve.jpg' %}" class="mabo8" height="70" alt="Service">
+                    <hr>
+                    <p class="subtitle">Reserve Force</p>
+                </center>
+                <p class="grey_text">The Reserve Force refers to a part-time military service of the Rwanda..</p>
+                <a href="https://www.mod.gov.rw/reserve-force">Visit →</a>
+            </div>
+        </div>
+    </div>
+<div class="section3">
+    <div class="section3_header">
+        <p>Latest News</p>
+    </div>
+    <div class="owl-carousel">
+        <div class="item carousel_div">
+            <a href="">
+                <img class="carousel_img" src="{% static 'img/csm_1_d80665abbd.jpg' %}" width="350" height="230" alt="">
+            </a>
+            <a class="carousel_title" href=""><h3>RDF HEAD OF DEFENCE INTELLIGENCE VISITS RWANDAN PEACEKEEPERS IN SOUTH SUDAN</h3></a>
+            <p>Juba, 29 March 2023</p>
+            <p>On 29 Mar 23, the RDF Head of Defence Intelligence, Maj Gen Vincent Nyakarundi visited&nbsp; Rwandan peacekeepers (Rwanbatt-1 and…</p>
+            <a class="carousel_readmore" href="/news-detail/rdf-head-of-defence-intelligence-visits-rwandan-peacekeepers-in-south-sudan">
+                Read more
+                →
+            </a>
+        </div>
+        
+        <div class="item carousel_div">
+            <a href="">
+                <img class="carousel_img" src="{% static 'img/csm_1_b3d93a5c67.jpg' %}" width="350" height="230" alt="">
+            </a>
+            <a class="carousel_title" href=""><h3>EU AMBASSADOR TO MOZAMBIQUE VISITS RWANDA SECURITY FORCES IN MOCIMBOA DA PRAIA DISTRICT</h3></a>
+            <p><strong>Cabo Delgado, 29 March 2023</strong></p>
+            <p>Today, 29 March 2023, the European Union Ambassador to Mozambique, H E Antonino Maggiore along with the Force Commander…</p>
+            <a class="carousel_readmore" href="/news-detail/rdf-head-of-defence-intelligence-visits-rwandan-peacekeepers-in-south-sudan">
+                Read more
+                →
+            </a>
+        </div>
+        
+        <div class="item carousel_div">
+            <a href="">
+                <img class="carousel_img" src="{% static 'img/csm_RDF_LOGO_851a83ec7b.jpg' %}" width="350" height="230" alt="">
+            </a>
+            <a class="carousel_title" href=""><h3> RDF PRESS RELEASE – PROMOTION IN THE RWANDA DEFENCE FORCE</h3></a>
+            <p><strong>REF: RDF/MPR/A/10/03/23</strong></p>
+            <p><strong>Kigali, 29 March 2023</strong></p>
+            <p>HIS EXCELLENCY THE PRESIDENT OF THE REPUBLIC OF RWANDA AND COMMANDER-IN-CHIEF OF RDF HAS PROMOTED…</p>
+            <a class="carousel_readmore" href="/news-detail/rdf-head-of-defence-intelligence-visits-rwandan-peacekeepers-in-south-sudan">
+                Read more
+                →
+            </a>
+        </div>
+        
+        <div class="item carousel_div">
+            <a href="">
+                <img class="carousel_img" src="{% static 'img/csm_1_452cff1f02.jpg' %}" width="350" height="230" alt="">
+            </a>
+            <a class="carousel_title" href=""><h3> RDF Officers complete UN Staff Officers Course</h3></a>
+            <p>Musanze, 25 March 2023</p>
+            <p>Yesterday, twenty-four Rwanda Defence Force (RDF) officers graduated from the United Nations Staff Officers Course (UNSOC)…</p>
+            <a class="carousel_readmore" href="/news-detail/rdf-head-of-defence-intelligence-visits-rwandan-peacekeepers-in-south-sudan">
+                Read more
+                →
+            </a>
+        </div>
+        
+        <div class="item carousel_div">
+            <a href="">
+                <img class="carousel_img" src="{% static 'img/csm_1_4ab54d1342.jpg' %}" width="350" height="230" alt="">
+            </a>
+            <a class="carousel_title" href=""><h3>RDF Junior Command and Staff Course graduates from RDF Command and Staff College</h3></a>
+            <p>Musanze, 24 March 2023</p>
+            <p>Today the 24th March 2023, 36 Officers of the Rwanda Defence Force and 2 officers from Rwanda National Police completed a…</p>
+            <a class="carousel_readmore" href="/news-detail/rdf-head-of-defence-intelligence-visits-rwandan-peacekeepers-in-south-sudan">
+                Read more
+                →
+            </a>
+        </div>
+        
+        <div class="item carousel_div">
+            <a href="">
+                <img class="carousel_img" src="{% static 'img/csm_1_c239e9e309.jpg' %}" width="350" height="230" alt="">
+            </a>
+            <a class="carousel_title" href=""><h3>RDF HEAD OF DEFENCE INTELLIGENCE VISITS RWANDAN PEACEKEEPERS IN SOUTH SUDAN</h3></a>
+            <p>Juba, 29 March 2023</p>
+            <p>On 29 Mar 23, the RDF Head of Defence Intelligence, Maj Gen Vincent Nyakarundi visited&nbsp; Rwandan peacekeepers (Rwanbatt-1 and…</p>
+            <a class="carousel_readmore" href="/news-detail/rdf-head-of-defence-intelligence-visits-rwandan-peacekeepers-in-south-sudan">
+                Read more
+                →
+            </a>
+        </div>
+    </div>
+    <center><a class="blue_btn" href="">More News</a></center>
+</div>
+<div class="section2">
+    <h1>RDF in Peacekeeping missions</h1>
+    <p class="grey_text" style="font-size: 18px;font-weight: 600;">Humanity Drives Rwanda's Peace Support Operations</p>
+    <p class="grey_text">Rwanda is among the few if not the only peculiar country in the world that is mandated by the constitution to take part in peacekeeping around the world and in support of affected communities.<br>Currently, Rwanda is the 4th biggest troop contributing country with 4,585 military personnel in support of UN peacekeeping operations in South Sudan (UNMISS) and Central African Republic (MINUSCA).</p>
+    <div class="section2_wrapper" style="margin:3rem 0;">
+        <div class="section2_div">
+            <img src="{% static 'img/MINUSCA.png' %}" class="mabo8" height="70" alt="Service">
+            <hr>
+            <p class="subtitle">MINUSCA</p>
+            <p class="grey_text">UN Multidimensional Integrated Stabilization Mission in the CAR</p>
+            <a href="https://www.mod.gov.rw/army">Visit →</a>
+        </div>
+        <div class="section2_div">
+            <img src="{% static 'img/UNMISS.png' %}" class="mabo8" height="70" alt="Service">
+            <hr>
+            <p class="subtitle">UNMISS</p>
+            <p class="grey_text">United Nations Mission In South Sudan</p>
+            <a href="https://www.mod.gov.rw/air-force">Visit →</a>
+        </div>
+        <div class="section2_div">
+            <img src="{% static 'img/UNAMID.png' %}" class="mabo8" height="70" alt="Service">
+            <hr>
+            <p class="subtitle">UNAMID</p>
+            <p class="grey_text">UN African Union Hybrid Operation in Darfur</p>
+            <a href="https://www.mod.gov.rw/reserve-force">Visit →</a>
+        </div>
+    </div>
+    <center><a class="blue_btn" href="">Explore More</a></center>
+</div>
+
+<div class="footer">
+    <div class="footer_links">
+        <p class="footer_links_title">Connect with us</p>
+        <p><i class="fas fa-phone mr-3"></i> info@mod.gov.rw</p>
+        <p>Contact Us→</p>
+        <p>Check Mail</p>
+        <p>© 2023 Government of the Republic of Rwanda</p>
+    </div>
+    <div class="map_container">
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.50020302047!2d30.084959815278406!3d-1.9532138985760215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca68c8c7ad461%3A0x5c8484d75359c405!2sMinistry%20of%20Defence!5e0!3m2!1sen!2srw!4v1589967958406!5m2!1sen!2srw" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+</div>
+
+</body>
+</html>

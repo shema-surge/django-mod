@@ -1,0 +1,44 @@
+.section3{
+    padding:2rem 12%;
+    background-color: #f8f8f8;
+}
+
+.section3_header{
+    color:black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 4rem;
+}
+
+.carousel_img{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+}
+
+.carousel_div a{
+    text-decoration:none;
+}
+
+.carousel_title{
+    color:black;
+    font-weight: bold;
+}
+
+.carousel_div p{
+    color:#8e8e8e;
+}
+
+.carousel_readmore{
+    color:black;
+    font-weight:bold;
+}
+
+.blue_btn{
+    text-decoration: none;
+    background-color:#078ece;
+    color:white;
+    padding:10px 48px;
+    border-radius: 2px;
+    margin:1rem 0;
+}

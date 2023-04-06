@@ -1,0 +1,22 @@
+.footer{
+    display:flex;
+    padding:0 12px;
+    justify-content: space-around;
+    background-color: #054d6f;
+    color:white;
+}
+
+.footer_links_title{
+    font-size:28px;
+    color:#078ece;
+    font-weight:bold;
+}
+
+.footer_links{
+    padding:13% 0;
+}
+
+.map_container{
+    background-color: aquamarine;
+    width:40%;
+}

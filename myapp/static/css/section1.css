@@ -1,0 +1,44 @@
+.section1{
+    height:50vh;
+    padding:5% 5rem;
+    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.9)), url('../img/Backround.jpg');
+    background-size:cover;
+    background-position-y: center;
+    background-blend-mode: darken;
+}
+
+.section1_title{
+    font-size:4rem;
+    font-weight:Bold;
+    color:white;
+    margin:0;
+}
+
+.section1_text{
+    font-size: 1.2rem;
+    color:white;
+}
+
+.section1_form{
+    display:flex;
+    justify-content: space-between;
+    height:3rem;
+    width:40%;
+}
+
+.section1_form input{
+    border:none;
+    outline: none;
+    height:100%;
+    width:100%;
+    padding:0 1rem;
+}
+
+.section1_form button{
+    border:none;
+    color:white;
+    font-weight:bold;
+    background-color:#0084b4;
+    height:100%;
+    padding:0 2rem;
+}

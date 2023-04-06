@@ -1,0 +1,36 @@
+.section2{
+    padding:3rem 10%;
+}
+
+.section2_wrapper{
+    display:flex;
+    justify-content: space-between;
+}
+
+.section2_div{
+    width:28%;
+    padding:2rem 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.subtitle{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.section2_div hr{
+    margin: 1rem 0;
+    border: 0;
+    width:50%;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.grey_text{
+    color: rgb(117, 114, 114);
+}
+
+.section2_div a{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
